@@ -106,7 +106,8 @@ document.getElementById('donate-btn-3').addEventListener('click', function(){
 })
 
 // ---------------------------------------->
-// ---------------------------------------->
+// <--------------------------------------------------------->
+
 const historyButton = document.getElementById('history-btn');
 const donationButton = document.getElementById('donation-btn');
 document.getElementById('history-btn').addEventListener('click', function(){
@@ -120,4 +121,9 @@ document.getElementById('donation-btn').addEventListener('click', function(){
     donationButton.classList.add('bg-lime-300');
 })
 
-// ------------------------
+// <------------Toggle Home and Blog Button------------>
+
+document.getElementById('blog-button').addEventListener('click', function(){
+    window.location.href = '/faq.html';
+})
+
