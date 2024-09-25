@@ -7,7 +7,7 @@ document.getElementById('donate-btn').addEventListener('click', function(){
         alert('Insufficient Balance!');
        return;
     }
-    if (isNaN(amountInput) || amountInput === '' ){
+    if (isNaN(amountInput) || amountInput === '' || amountInput < 0 ){
         alert ('Invalid Input!');
     }
     else{
@@ -42,7 +42,7 @@ document.getElementById('donate-btn-2').addEventListener('click', function(){
         alert('Insufficient Balance!');
        return;
     }
-    if (isNaN(amountInput) || amountInput === '' ){
+    if (isNaN(amountInput) || amountInput === '' || amountInput < 0 ){
         alert ('Invalid Input!');
     }
     else{
@@ -78,7 +78,7 @@ document.getElementById('donate-btn-3').addEventListener('click', function(){
         alert('Insufficient Balance!');
        return;
     }
-    if (isNaN(amountInput) || amountInput === '' ){
+    if (isNaN(amountInput) || amountInput === '' || amountInput < 0 ){
         alert ('Invalid Input!');
     }
     else{
