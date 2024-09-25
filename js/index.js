@@ -21,7 +21,6 @@ document.getElementById('donate-btn').addEventListener('click', function(){
         // <------added history------>
 
         const location = document.getElementById('donate-for-noakhali').innerText;
-        console.log(location);
         const div = document.createElement('div');
         const currentDate = new Date();
         const formattedDate = currentDate.toString();
