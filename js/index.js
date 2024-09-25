@@ -124,6 +124,6 @@ document.getElementById('donation-btn').addEventListener('click', function(){
 // <------------Toggle Home and Blog Button------------>
 
 document.getElementById('blog-button').addEventListener('click', function(){
-    window.location.href = '/faq.html';
+    window.location.href = './faq.html';
 })
 
